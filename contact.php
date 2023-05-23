@@ -7,14 +7,14 @@
 
 <!-- Contact Section -->
 <div id="contact">
-    <h2>Contact Me</h2>
-    <p>Interested in working togheter? Fill out the form below with some info about your project and I will get back to you as soon as I can.</p>
+    <h2>Kontakt Meg</h2>
+    <p>Interessert i å jobbe sammen? Fyll ut skjemaet nedenfor med litt info om prosjektet ditt, så kommer jeg tilbake ti deg så snart jeg kan.</p>
     <form action="send_mail.php" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="text" name="subject" placeholder="Subject" required>
-        <textarea name="message" placeholder="Message" required></textarea>
-        <button type="submit">Submit</button>
+        <input type="text" name="name" placeholder="Ditt Navn" required>
+        <input type="email" name="email" placeholder="Din Epost" required>
+        <input type="text" name="subject" placeholder="Emne" required>
+        <textarea name="message" placeholder="Melding" required></textarea>
+        <button type="submit">Send inn!</button>
     </form>
 </div>
 

@@ -12,9 +12,9 @@
     
 <nav>
     <ul>
-        <li class="<?php echo ($current_page == 'home') ? 'active' : ''; ?>"><a href="home.php">Home</a></li>
-        <li class="<?php echo ($current_page == 'about') ? 'active' : ''; ?>"><a href="about.php">About</a></li>
-        <li class="<?php echo ($current_page == 'portfolio') ? 'active' : ''; ?>"><a href="portfolio.php">Portfolio</a></li>
-        <li class="<?php echo ($current_page == 'contact') ? 'active' : ''; ?>"><a href="contact.php">Contact</a></li>
+        <li class="<?php echo ($current_page == 'home') ? 'active' : ''; ?>"><a href="home.php">Hjem</a></li>
+        <li class="<?php echo ($current_page == 'about') ? 'active' : ''; ?>"><a href="about.php">Om Meg</a></li>
+        <li class="<?php echo ($current_page == 'portfolio') ? 'active' : ''; ?>"><a href="portfolio.php">Portefølje</a></li>
+        <li class="<?php echo ($current_page == 'contact') ? 'active' : ''; ?>"><a href="contact.php">Kontakt</a></li>
     </ul>
 </nav>

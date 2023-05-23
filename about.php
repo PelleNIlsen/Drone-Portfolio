@@ -7,23 +7,23 @@
 
 <!-- About Section -->
 <div id="about">
-    <h2>About Me</h2>
+    <h2>Om Meg</h2>
     <img src="images/stock_pfp.png" alt="Pelle Martinius Nilsen">
     <p>
-        My name is Pelle Nilsen, and I've been a professional drone photographer for the past year.
-        I am passionate about capturing breathtaking views from the sky and showcasing the beauty of our world from a unique, aerial perspective.
+        Jeg heter Pelle Martinius Nilsen, og har vært profosjonell dronefotograf det siste året.
+        Jeg er lidenskapelig opptatt av å fange fantastisk utsikt fra himmelen og vise skjønnheten i vår verden fra et unikt, luftperspektiv.
     </p>
 
-    <h2>My Equipment</h2>
+    <h2>Mitt Utstyr</h2>
     <p>
-        I use a DJI Mini 2 with a [camera specs] camera to capture high resolution, stunning images.
-        The drone is capable of [some drone features]
+        Jeg bruker en DJI Mini 2 med et 4K, 12MP kamera for å ta fantastiske bilder med høy oppløsning.
+        Dronen er i stand til å stå imot høy vind... osv osv osv
     </p>
 
-    <h2>Why Choose My Services</h2>
+    <h2>Hvorfor Velge Mine Tjenester</h2>
     <p>
-        I believe that my passion for photography, my technical skills, and my unique artistic vision set me apart in the drone photography industry.
-        I am comitted to delivering high-quality images that meet your needs, whether for a commercial project, real estate, a special event, or beautiful wall art. 
+        Jeg tror at min lidenskap for fotografering, mine tekniske ferdigheter og min ulike kunstneriske visjon skiller meg ut i dronefotograferingsindustrien.
+        Jeg er forpliktet til å levere bilder av høy kvalitet som tilfredsstiller dine behov, enter det er for et kommersielt prosjekt, eiendom, en spesiell begivenhet eller vakker veggkunst.
     </p>
 </div>
 

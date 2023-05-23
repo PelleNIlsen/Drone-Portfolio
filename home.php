@@ -1,6 +1,7 @@
 <?php
-    $page_title = "Home - My Drone Photography";
     $current_page = 'home';
+    $page_title = "Home - My Drone Photography";
+    $page_css = 'index';
     include('assetts/header.php');
 ?>
 

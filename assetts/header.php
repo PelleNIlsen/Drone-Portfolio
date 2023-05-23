@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title><?php echo $page_title; ?></title>
     <!-- Add CSS link here -->
-    <link rel="stylesheet" href="assetts/index.css">
+    <link rel="stylesheet" href="assetts/main.css">
+    <link rel="stylesheet" href="assetts/<?php echo $page_css; ?>.css">
     <!-- Add Bootstrap or any other frameworks here if needed -->
 </head>
 <body>

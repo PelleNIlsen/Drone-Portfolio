@@ -1,0 +1,24 @@
+/* About Page Styles */
+#about {
+    padding: 2em;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-align: justify;
+    padding: 0 2em;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}

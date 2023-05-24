@@ -19,14 +19,14 @@
 <div id="about">
     <h2>Om Meg</h2>
     <p>Kort introduksjon om meg og mine tjenester.</p>
-    <a href="about.php">Les Mer</a>
+    <a href="about">Les Mer</a>
 </div>
 
 <!-- Portfolio Section -->
 <div id="portfolio">
     <h2>Min Portefølje</h2>
     <p>Et utvalg av mine beste bilder.</p>
-    <a href="portfolio.php">Se Mer</a>
+    <a href="showcase">Se Mer</a>
 </div>
 
 <!-- Testimonials Section -->
@@ -39,7 +39,7 @@
 <div id="contact-cta">
     <h2>La oss samarbeide!</h2>
     <p>Hvis du liker det jeg gjør, og vil jobbe sammen, ta kontakt!</p>
-    <a href="contact.php">Kontakt Meg</a>
+    <a href="contact">Kontakt Meg</a>
 </div>
 
 <?php include('assetts/footer.php'); ?>

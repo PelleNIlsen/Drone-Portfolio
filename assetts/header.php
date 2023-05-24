@@ -9,12 +9,20 @@
     <!-- Add Bootstrap or any other frameworks here if needed -->
 </head>
 <body>
-    
+<?php
+
+    session_start();
+
+    if (isset($_SESSION['login_user']) && $_SESSION['login_user'] == true) {
+        include(dirname(__DIR__) . '/assetts/loggedin.php');
+    } 
+?>
+
 <nav>
     <ul>
-        <li class="<?php echo ($current_page == 'home') ? 'active' : ''; ?>"><a href="home.php">Hjem</a></li>
-        <li class="<?php echo ($current_page == 'about') ? 'active' : ''; ?>"><a href="about.php">Om Meg</a></li>
-        <li class="<?php echo ($current_page == 'portfolio') ? 'active' : ''; ?>"><a href="portfolio.php">Portefølje</a></li>
-        <li class="<?php echo ($current_page == 'contact') ? 'active' : ''; ?>"><a href="contact.php">Kontakt</a></li>
+        <li class="<?php echo ($current_page == 'home') ? 'active' : ''; ?>"><a href="home">Hjem</a></li>
+        <li class="<?php echo ($current_page == 'about') ? 'active' : ''; ?>"><a href="about">Om Meg</a></li>
+        <li class="<?php echo ($current_page == 'portfolio') ? 'active' : ''; ?>"><a href="showcase">Portefølje</a></li>
+        <li class="<?php echo ($current_page == 'contact') ? 'active' : ''; ?>"><a href="contact">Kontakt</a></li>
     </ul>
 </nav>

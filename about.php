@@ -2,6 +2,8 @@
     $current_page = 'about';
     $page_title = "About - My Drone Photography";
     $page_css = 'about';
+    $page_description = 'Lær mer om Drone Fredrikstad, vår reise i dronefotograferingsindustrien og vår lidenskap for å fange fantastiske luftfoto.';
+    $page_keywords = 'Drone, dronefoto, dronefotografi, dronefotografering, flyfoto, foto, fly, hjem, hus, eiendom, tomt, om oss, om meg, team, vår reise, reise';
     include('assetts/header.php');
 ?>
 

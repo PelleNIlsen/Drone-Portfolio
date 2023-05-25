@@ -2,6 +2,8 @@
     $current_page = 'contact';
     $page_title = "Contact - My Drone Photography";
     $page_css = 'contact';
+    $page_description = 'Klar til å fange fantastiske flyfoto for prosjektet ditt? Kontakt Drone Fredrikstad i dag for bestilling og spørsmål.';
+    $page_keywords = 'Drone, dronefoto, dronefotografi, dronefotografering, flyfoto, foto, fly, hjem, hus, eiendom, tomt, kontakt, kontakt oss, book';
     include('assetts/header.php');
 ?>
 

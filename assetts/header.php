@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $page_title; ?></title>
-    <!-- Add CSS link here -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?php echo $page_description; ?>">
+    <meta name="keywords" content="<?php echo $page_keywords; ?>">
+    <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="assetts/main.css">
     <link rel="stylesheet" href="assetts/<?php echo $page_css; ?>.css">
-    <!-- Add Bootstrap or any other frameworks here if needed -->
 </head>
 <body>
 <?php

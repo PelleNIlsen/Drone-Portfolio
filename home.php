@@ -2,6 +2,8 @@
     $current_page = 'home';
     $page_title = "Home - My Drone Photography";
     $page_css = 'index';
+    $page_description = 'Velkommen til Drone Fredrikstad, hvor vi fanger skjønnheten i verden ovenfra. Utforsk arbeidet vårt, lær om oss og ta kontakt.';
+    $page_keywords = 'Drone, dronefoto, dronefotografi, dronefotografering, flyfoto, foto, fly, hjem, hus, eiendom, tomt, hjemmeside';
     include('assetts/header.php');
 ?>
 
@@ -9,7 +11,7 @@
 <section>
     <div id="hero">
         <!-- <img src="images\DJI_0010.JPG" alt="Fredrikstad Sentrum"> -->
-        <h1>Welcome to Drone Fredrikstad</h1>
+        <h1>Drone Fredrikstad</h1>
         <p>Fanger verden fra et annet perspektiv</p>
         <a href="#about">Lær Mer</a>
     </div>

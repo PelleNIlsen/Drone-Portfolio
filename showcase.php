@@ -2,6 +2,8 @@
     $current_page = 'portfolio';
     $page_title = "Portfolio - My Drone Photography";
     $page_css = 'portfolio';
+    $page_description = 'Bla gjennom porteføljen vår på Drone Fredrikstad, som viser våre beste dronebilder fra forskjellige prosjekter. Opplev verden fra et nytt perspektiv.';
+    $page_keywords = 'Drone, dronefoto, dronefotografi, dronefotografering, flyfoto, foto, fly, hjem, hus, eiendom, tomt, bilder, drone bilder, luft bilder, portefølje, portfolio, showcase';
     include('assetts/header.php');
     include('functions/connect.php');
 ?>

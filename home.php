@@ -3,7 +3,7 @@
     $page_title = "Home - My Drone Photography";
     $page_css = 'index';
     $page_description = 'Velkommen til Drone Fredrikstad, hvor vi fanger skjønnheten i verden ovenfra. Utforsk arbeidet vårt, lær om oss og ta kontakt.';
-    $page_keywords = 'Drone, dronefoto, dronefotografi, dronefotografering, flyfoto, foto, fly, hjem, hus, eiendom, tomt, hjemmeside';
+    $page_keywords = 'Drone, drone med kamera, dji drone, fpv drone, drone regler, drone barn, mini drone, drone forsikring, dronefoto, dronefotografi, dronefotografering, flyfoto, foto, fly, hjem, hus, eiendom, tomt, hjemmeside';
     include('assetts/header.php');
 ?>
 

@@ -11,6 +11,9 @@
 <!-- Portfolio Section -->
 <div id="portfolio">
     <h2>Min Portefølje</h2>
+    <p>
+        Velkommen til vår portefølje. Her kan du se noen av de beste dronebildene vi har tatt fra forskjellige prosjekter. Vi er stolte av å kunne vise frem det vakre landskapet i Fredrikstad og omegn. Ta en titt rundt og nyt utsikten fra et helt nytt perspektiv.
+    </p>
     <div class="grid-container">
         <?php
             $sql = "SELECT filename, description FROM portfolio_images";
@@ -19,7 +22,7 @@
             if ($result->num_rows > 0) {
                 while ($row = $result->fetch_assoc()) {
                     echo '<div class="grid-item">';
-                    echo '<img src="portfolioImg/' . $row["filename"] . '" alt="' . $row["description"] . '">';
+                    echo '<img loading="lazy" src="portfolioImg/' . $row["filename"] . '" alt="' . $row["description"] . '">';
                     echo '<div class="overlay">';
                     echo '<div class="text">' . $row["description"] . '</div>';
                     echo '</div></div>';

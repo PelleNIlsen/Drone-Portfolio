@@ -8,14 +8,17 @@
 ?>
 
 <!-- Hero Section -->
-<section>
-    <div id="hero">
-        <!-- <img src="images\DJI_0010.JPG" alt="Fredrikstad Sentrum"> -->
+<div id="hero">
+    <div class="hero-intro">
         <h1>Drone Fredrikstad</h1>
         <p>Fanger verden fra et annet perspektiv</p>
         <a href="#about">Lær Mer</a>
     </div>
-</section>
+    <svg id="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#e5e5e5" fill-opacity="1" d="M0,32L34.3,80C68.6,128,137,224,206,245.3C274.3,267,343,213,411,186.7C480,160,549,160,617,186.7C685.7,213,754,267,823,293.3C891.4,320,960,320,1029,304C1097.1,288,1166,256,1234,256C1302.9,256,1371,288,1406,304L1440,320L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+    </svg>
+</div>
+
 
 <!-- About Section -->
 <div id="about">

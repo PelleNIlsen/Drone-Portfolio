@@ -1,11 +1,20 @@
 #portfolio {
     padding: 2em;
+    text-align: center;
+    align-items: center;
 }
 
 #portfolio h2 {
     text-align: center;
     font-size: 2em;
     margin-bottom: 1em;
+}
+
+#portfolio p {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
 }
 
 .grid-container {

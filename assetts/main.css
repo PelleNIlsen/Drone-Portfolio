@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body, h1, h2, p, a {
     margin: 0;
     padding: 0;
@@ -33,6 +37,8 @@ nav ul li {
 nav ul li a {
     color: #e5e5e5;
     text-decoration: none;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 nav ul li a:hover {
